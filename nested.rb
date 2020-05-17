@@ -131,11 +131,11 @@ def adding_to_dennis
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => ["C", "Assembly"]
         }
      }
 
-programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"  
+programmer_hash[:dennis_ritchie][:languages][] = "Assembly"  
   
 end
 
